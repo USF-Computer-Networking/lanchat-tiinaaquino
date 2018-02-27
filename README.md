@@ -13,4 +13,4 @@ Write a Python program that:
 
  - the program should be written so that:
     - it provides useful user feed-back on errors
-    - provides a '-h' or '--help' option that displays useful help for the application
+    - provides user options if no arguments are given
