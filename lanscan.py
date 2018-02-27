@@ -19,7 +19,6 @@ server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 list_of_clients = []
 
-
 if len(sys.argv) != 3:
 	print "Please enter: script, IP address, port number"
 	exit()
@@ -63,4 +62,3 @@ while True:
 
 conn.close()
 server.close()
-
